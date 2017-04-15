@@ -63,3 +63,34 @@
 ```
     ![Alt text for image](url to the image)
 ```
+
+### Escape Sequences
+Use backslash to escape special characters
+for e.g. 
+```
+    doing this -> \*asterisks*
+    will print this -> *asterisks* instead of making it italics
+```
+
+works with most of the special char sequences like \ ` * _ { } [ ] ( ) # + - . ! etc.
+
+### Code Blocks
+Use backticks for single line of code. for e.g. \`console.log('hello world');`
+
+likewise use ` 3x or 4 spaces for multiline or fenced code blocks. for e.g:
+
+\```javascript
+    function greet(message) {
+        alert(message);
+    }
+\```
+
+Adding the language name after \``` provides syntax highlighting.
+
+### Github Flavored Markdown (GFM) provides additional features like
+
+- @Mentions
+- Issue References
+- Emojis
+- Task lists
+- Tables etc.
