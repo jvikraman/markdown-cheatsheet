@@ -1,6 +1,6 @@
 # Markdown Syntax Guide
 
-### For headers
+### Headers
 ```
     # h1
     ## h2
@@ -17,7 +17,7 @@
     -
 ```
 
-### For Text Effects
+### Text Effects
 ```
    *for italics*
    _another way to do italics_
@@ -25,6 +25,10 @@
    __another way to do bold text__
    **combining bold text and _italized text_**
 ```
+
+### Horizontal Rule
+Use either - * or _ 3x to create a hr
+
 
 ### Unordered Lists
 ```
@@ -48,7 +52,7 @@
     Someone said:
 
     > An apple a day keeps the doctor away!
-    > or was it Organes?
+    > or was it oranges?
     >> this is how you do blockquote within blockquote.
 ```
 
@@ -87,6 +91,21 @@ likewise use ` 3x or 4 spaces for multiline or fenced code blocks. for e.g:
 
 Adding the language name after \``` provides syntax highlighting.
 
+### Tables
+- use - char to separate th from tbody
+- likewise use | char to separate cols
+- use : for col alignment
+    - for e.g. :-----: does center
+    - ----: does right align 
+
+here's an example
+```
+    Name    |   Location
+    -----       :--------:
+    Jake    |   FL
+    Rob     |   WI
+    Sally   |   TX
+```
 ### Github Flavored Markdown (GFM) provides additional features like
 
 - @Mentions
